@@ -27,12 +27,18 @@ body {
     display: flex;
 }
 
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 .green {
     background-color: rgb(17, 172, 69);
 }
 
 .yellow {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 208, 0);
 }
 
 .pink {
@@ -41,6 +47,26 @@ body {
 
 .brown {
     background-color: rgb(202, 117, 84);
+}
+
+.purple {
+    background-color: rgb(138, 81, 138);
+}
+
+.lightBlue {
+    background-color: rgb(81, 163, 218)
+}
+
+.bordo {
+    background-color: rgb(128, 0, 0);
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+}
+
+.lightGreen {
+    background-color: rgb(168, 236, 90);
 }
 
 .short {
