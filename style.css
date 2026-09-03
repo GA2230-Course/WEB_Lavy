@@ -1,25 +1,28 @@
 html,
 body {
-    height: 90%;
+    height: 100%;
     margin: 0;
+    padding: 0;
     background-color: rgb(121, 217, 255);
 }
 
-.ColorBox {
-    position: relative;
-    width: 90%;
-    height: 90%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 4px solid red;
+.Container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .Box {
     flex: 1;
-    border: 4px solid red;
+    display:flex;
+    #websiteText {
+        text-align:left;
+        font-family: Arial, sans-serif;
+        font-weight:900;
+        font-size: x-large;
+        color: rgb(255, 255, 255);
+    }
 }
 
 .Row {
@@ -69,6 +72,51 @@ body {
     background-color: rgb(168, 236, 90);
 }
 
+.grey {
+    background-color: rgb(128, 128, 128);
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.bedge {
+    background-color: rgb(240, 222, 143);
+}
+
 .short {
     flex: 0.3;
+}
+
+.x-short {
+    flex: 0.1;
+}
+
+.xx-short {
+    flex: 0.05;
+}
+
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
+
+.gapped {
+    margin: 10px;
+}
+
+.smallGapped {
+    margin: 5px;
+}
+
+.bigGapped {
+    margin: 20px;
 }
