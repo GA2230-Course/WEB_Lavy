@@ -16,8 +16,11 @@ body {
 .Box {
     flex: 1;
     display:flex;
-    #websiteText {
-        text-align:left;
+    h1 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        text-align: center;
         font-family: Arial, sans-serif;
         font-weight:900;
         font-size: x-large;
@@ -30,7 +33,7 @@ body {
     display: flex;
 }
 
-.column {
+.Column {
     flex: 1;
     display: flex;
     flex-direction: column;
